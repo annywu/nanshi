@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	    <meta name="format-detection" content="telphone=no, email=no" />
+	    <meta name="renderer" content="webkit">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="HandheldFriendly" content="true">
+	    <meta name="MobileOptimized" content="320">
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-orientation" content="portrait">
+	    <meta name="full-screen" content="yes">
+	    <meta name="x5-fullscreen" content="true">
+	    <meta name="browsermode" content="application">
+	    <meta name="x5-page-mode" content="app">
+	    <meta name="msapplication-tap-highlight" content="no">
+	    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+	    <link rel="stylesheet" href="../css/login.css">
+	    <script type="text/javascript" src="../js/zepto.min.js">   </script>
+	    
+</head>
+<body>
+	<header class="wrap">
+		<a href="../index.html" class="go_home"></a>
+		<h1 class="login_f">登录</h1>
+		<div class="nav_right">
+			<a href="register.html" class="">注册</a>
+		</div>
+	</header>
+	<section class="wrap">
+	<form action="" class="login" method="post">
+		<ul class="">
+			<li>
+				<label for="user">
+					账　户
+					<input type="text" id="user" name="user" placeholder="用户名/邮箱/已验证手机">
+				</label>
+			</li>
+			<li>
+				<label for="pwd">
+					密　码
+					<input type="password" id="pwd" name="pwd" placeholder="登陆密码">
+				</label>
+			</li>
+		</ul>
+		<div class="auto_login clearfix">
+			<label for="checkbox">
+				<input type="checkbox">
+				七天自动登录
+			</label>
+			<a href="#">忘记密码？</a>
+		</div>
+		<div class="btn_login" id="btn_login">
+			<input type="submit" value="登录">
+		</div>
+		
+	</form>
+	</section>
+	<div class="cooper wrap">
+		<h2>
+			<span>合作账号登录</span>
+		</h2>
+		<ul>
+			<li><a href="javascript:void(0);" class="weibo"></a></li>
+			<li><a href="javascript:void(0);" class="qq"></a></li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript" src="../js/common.js">   </script>
+	<script src="../js/login.js"></script>
+</body>
+</html>

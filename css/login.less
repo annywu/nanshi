@@ -1,0 +1,47 @@
+@size:50rem;
+
+.wrap{width:640/@size ;margin: 0 auto;}
+body{background: #F5F5F5;}
+header{background: #F8F8F8;padding: 10/@size 15/@size;box-sizing: border-box;position: relative;
+
+	.go_home{width:30/@size ;height:30/@size ;background: url(../img/home_b.png) no-repeat;position: absolute;background-size:contain; margin-top: 15/@size;opacity: .5;
+	}
+	.login_f{text-align: center;line-height: 60/@size;font-size: 32/@size;font-weight: normal;}
+	.nav_right{position: absolute;right: 25/@size;top: 10/@size;line-height: 60/@size;}
+	.nav_right a{color:#ED5564;}
+}
+.login{
+	background: #F5F5F5;
+	ul{padding-left:20/@size;line-height: 80/@size; background: #fff;}
+	li{font-size: 24/@size;padding-left: 50/@size;}
+	li:nth-of-type(1){border-bottom: 1px solid #eee;}
+	input{border: none;padding-left: 10/@size;}
+	.auto_login{
+		margin: 0 100/@size;font-size: 24/@size;line-height: 120/@size;
+		label{
+			float:left;color: #666;
+			input{-webkit-appearance:none;width:30/@size;height:30/@size;border-radius: 50%;border: 1px solid #ccc;background: #F5F5F5;vertical-align: middle;}
+			input:checked{background:#48CFAE;border-color:#48CFAE; position: relative;
+			}
+			input:checked:after{content:'';height:8/@size;width: 16/@size;border-left: 3/@size solid #fff;border-bottom: 3/@size solid #fff;position: absolute;top: 6/@size;left: 3/@size;transform:rotateZ(-45deg);
+			}
+		}
+		a{float:right;color: #4B89DC;}
+	}
+	.btn_login{
+		padding:0 35/@size 30/@size;
+		input[type="submit"]{border:none;border-radius:10/@size;width:100%;line-height: 75/@size;background: #ED5564;color:#fff;text-align: center;font-size: 30/@size;
+		}
+	}
+}
+.cooper{
+	h2{height: 20/@size;border-bottom: 1px solid #ccc;text-align: center;
+		span{font-size:24/@size;font-weight: normal;display: inline-block;padding: 0 30/@size;background: #F5F5F5;transform:translateY(0px)
+		}
+	}
+	ul{padding-top: 20/@size;}
+	ul>li{float: left;padding-top:30/@size;padding-left: 160/@size;}
+	ul>li>a{display: block;width: 70/@size;height: 70/@size;border-radius: 50%;}
+	.weibo{border:1px solid red;background: url(../img/sina.png) no-repeat center #fff;background-size:70%; }
+	.qq{border:1px solid #4FC0E8;background: url(../img/qq.png) no-repeat center #fff;background-size:70%; }
+}
