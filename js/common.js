@@ -59,5 +59,5 @@
 //     event.preventDefault();
 // }, false);
 $('body').swipe(function(){
-    console.log(111)
+    alert()
 })
