@@ -58,6 +58,6 @@
 // document.addEventListener('touchmove', function (event) {
 //     event.preventDefault();
 // }, false);
-$('body').swipe(function(){
+$('body').tap(function(){
     alert()
 })

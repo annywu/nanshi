@@ -27,5 +27,7 @@
 	});
 })();
 
-
+$('.banner').swipeUp(function(event) {
+	alert()
+});
 
