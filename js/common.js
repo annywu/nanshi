@@ -27,10 +27,10 @@
     //     oHtml.style.fontSize=width/16+'px';
     // })(window,document)
 
-//阻止网页左右滑动
-// document.addEventListener('touchmove', function (event) {
-//     event.preventDefault();
-// }, false);
+阻止网页左右滑动
+document.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, false);
 
     function setCookie(name,value,expireHours){
         var cookieString=name+"="+escape(value)+";path=/";
