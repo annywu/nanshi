@@ -28,10 +28,11 @@
 
 	//返回上一页
 	var pre_url=document.referrer;//记录上一页的地址
-	touchEvent.swipeRight(document,function(){
-		console.log(pre_url)
-		location.href=pre_url;
-	})
+	// touchEvent.swipeRight(document,function(){
+	// 	console.log(pre_url)
+	// 	location.href=pre_url;
+	// })
+	
 })();
 
 
