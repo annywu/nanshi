@@ -24,9 +24,7 @@
 	$(window).scroll(function(event) {
 		// if($(window).scrollTop()==0)
 		$(window).scrollTop()==0?$('.fix_block_r').hide():$('.fix_block_r').show()
-		document.addEventListener( 'touchmove', function( e ){
-	        e.returnValue = true;
-	    }, false );
+
 	});
 
 	//返回上一页
@@ -34,7 +32,11 @@
 	touchEvent.swipeRight(document,function(){
 		location.href=pre_url;
 	})
-
+	// touchEvent.swipe(document,function(){
+		document.addEventListener( 'touchmove', function( e ){
+	        e.returnValue = true;
+	    }, false );
+	// })
 	
 })();
 
